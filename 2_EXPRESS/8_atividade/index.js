@@ -49,6 +49,7 @@ app.post('/cadastro', (req, res) => {
     // Lógica para processar a solicitação POST aqui
 });
 
+
 app.listen(5000, () => {
     console.log('Servidor está rodando na porta 5000')
 })
