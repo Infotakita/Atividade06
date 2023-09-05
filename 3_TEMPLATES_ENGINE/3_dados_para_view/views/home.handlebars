@@ -1,0 +1,10 @@
+<main>
+    <h2>Seja Bem Vindo, {{user.name}}</h2>
+    <p> Voce é jovem ainda{{ user.age}} anos,</p>
+
+    {{#if auth}}
+    <a href="/dashboard"> Acessar a Dashboard</a>
+    {{else}}
+    <p> Você precisa estar autenticado para acessar a Dashboard</p>
+    {{/if}}
+</main>
